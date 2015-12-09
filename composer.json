@@ -1,0 +1,15 @@
+{
+	"require": {
+		"monolog/monolog": "1.0.*",
+		"vlucas/phpdotenv": "2.*",
+		"rohea/file-storage": "0.1.*",
+		"google/apiclient": "1.0.*@beta",
+		"stripe/stripe-php": "3.*"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"StG\\": "app/"
+		}
+	}
+}
